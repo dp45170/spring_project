@@ -5,11 +5,8 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-<bean id = "triangle" class="com.examples.beans.Triangle"></bean>
-
-
-
-
-
+<bean id = "triangle" class="com.examples.beans.Triangle">
+	<property name="name" value="Equilateral" />
+</bean>
 
 </beans>
